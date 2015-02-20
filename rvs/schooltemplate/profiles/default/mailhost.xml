@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<object name="MailHost" meta_type="Mail Host"
+   smtp_host="webmail2.rockyview.ab.ca" smtp_port="25" smtp_pwd=""
+   smtp_uid=""/>

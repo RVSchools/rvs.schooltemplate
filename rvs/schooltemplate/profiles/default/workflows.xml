@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<object name="portal_workflow" meta_type="Plone Workflow Tool">
+ <property name="title">School workflow defintions</property>
+ <object name="folder_workflow" meta_type="Workflow"/>
+ <object name="intranet_folder_workflow" meta_type="Workflow"/>
+ <object name="intranet_workflow" meta_type="Workflow"/>
+ <object name="managed_folder_workflow" meta_type="Workflow"/>
+ <object name="managed_members_workflow" meta_type="Workflow"/>
+ <object name="news_and_event_item_workflow" meta_type="Workflow"/>
+ <object name="one_state_workflow" meta_type="Workflow"/>
+ <object name="plone_workflow" meta_type="Workflow"/>
+ <object name="schools_workflow" meta_type="Workflow"/>
+ <object name="simple_publication_workflow" meta_type="Workflow"/>
+ <bindings>
+  <default>
+   <bound-workflow workflow_id="schools_workflow"/>
+  </default>
+  <type type_id="ATBooleanCriterion"/>
+  <type type_id="ATCurrentAuthorCriterion"/>
+  <type type_id="ATDateCriteria"/>
+  <type type_id="ATDateRangeCriterion"/>
+  <type type_id="ATListCriterion"/>
+  <type type_id="ATPathCriterion"/>
+  <type type_id="ATPortalTypeCriterion"/>
+  <type type_id="ATReferenceCriterion"/>
+  <type type_id="ATRelativePathCriterion"/>
+  <type type_id="ATSelectionCriterion"/>
+  <type type_id="ATSimpleIntCriterion"/>
+  <type type_id="ATSimpleStringCriterion"/>
+  <type type_id="ATSortCriterion"/>
+  <type type_id="BaseCacheRule"/>
+  <type type_id="CachePolicy"/>
+  <type type_id="CacheTool"/>
+  <type type_id="ContentCacheRule"/>
+  <type type_id="Discussion Item"/>
+  <type type_id="Event">
+   <bound-workflow workflow_id="news_and_event_item_workflow"/>
+  </type>
+  <type type_id="FieldsetEnd"/>
+  <type type_id="FieldsetFolder"/>
+  <type type_id="FieldsetStart"/>
+  <type type_id="FormBooleanField"/>
+  <type type_id="FormCaptchaField"/>
+  <type type_id="FormCustomScriptAdapter"/>
+  <type type_id="FormDateField"/>
+  <type type_id="FormFileField"/>
+  <type type_id="FormFixedPointField"/>
+  <type type_id="FormIntegerField"/>
+  <type type_id="FormLabelField"/>
+  <type type_id="FormLikertField"/>
+  <type type_id="FormLinesField"/>
+  <type type_id="FormMailerAdapter"/>
+  <type type_id="FormMultiSelectionField"/>
+  <type type_id="FormPasswordField"/>
+  <type type_id="FormRichLabelField"/>
+  <type type_id="FormRichTextField"/>
+  <type type_id="FormSaveDataAdapter"/>
+  <type type_id="FormSelectionField"/>
+  <type type_id="FormStringField"/>
+  <type type_id="FormTextField"/>
+  <type type_id="FormThanksPage"/>
+  <type type_id="HeaderSet"/>
+  <type type_id="HeaderSetFolder"/>
+  <type type_id="News Item">
+   <bound-workflow workflow_id="news_and_event_item_workflow"/>
+  </type>
+  <type type_id="Plone Site"/>
+  <type type_id="PolicyHTTPCacheManagerCacheRule"/>
+  <type type_id="RuleFolder"/>
+  <type type_id="TemplateCacheRule"/>
+  <type type_id="File">
+   <bound-workflow workflow_id="schools_workflow"/>
+  </type>
+  <type type_id="Image">
+   <bound-workflow workflow_id="schools_workflow"/>
+  </type>
+ </bindings>
+</object>

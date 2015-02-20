@@ -1,0 +1,4 @@
+<object name="custom" meta_type="Folder">
+    <property name="title"/>
+    <object name="base_properties" meta_type="Folder"/>
+</object>

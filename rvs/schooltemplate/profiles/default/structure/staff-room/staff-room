@@ -1,0 +1,28 @@
+id: staff-room
+title: Staff Room
+description: 
+subject: 
+relatedItems: 
+location: 
+language: 
+effectiveDate: None
+expirationDate: None
+creation_date: 2010/06/22 11:20:55.142000 GMT-6
+modification_date: 2012/05/16 14:07:42.398622 GMT-6
+creators: admin
+contributors: 
+rights: 
+allowDiscussion: True
+excludeFromNav: False
+presentation: False
+tableContents: False
+Content-Type: text/html
+
+
+<p>Welcome to the Virtual Staffroom</p>
+<p>This folder appears on the Members only bar because it is in the state of Members.</p>
+<p>Members = all of the users on your site.</p>
+<p>If you add students to your site, they will be able to see the content in this folder. If you change the state to "internal" only the people you select will see it.&nbsp; When you make an object "internal" you must then share it using the sharing tab.</p>
+<p>If you change the Staffroom "folder" to internal and share it with staff, it will disappear from the Members navigation bar!!!&nbsp;&nbsp;</p>
+<p>Keep this folder in the state of Members and then make the nested folders internal.</p>
+<p>&nbsp;</p>

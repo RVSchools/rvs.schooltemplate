@@ -1,0 +1,21 @@
+id: publications-main
+title: School Publications
+description: When you are not able to input the information onto a page in Plone, all items uploaded on the public side of your website should be in PDF format, instead of doc, pub, ppt to allow as wide of audience as possible. 
+subject: 
+relatedItems: 
+location: 
+language: 
+effectiveDate: None
+expirationDate: None
+creation_date: 2010/10/18 16:01:32.078000 GMT-6
+modification_date: 2012/05/17 14:47:57.704168 GMT-6
+creators: admin
+contributors: 
+rights: 
+allowDiscussion: False
+excludeFromNav: False
+presentation: False
+tableContents: False
+Content-Type: text/html
+
+<p>A table with viewlets linking to important items should go here.</p>

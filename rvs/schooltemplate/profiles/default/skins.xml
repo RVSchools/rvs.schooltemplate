@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<object name="portal_skins" meta_type="Plone Skins Tool" allow_any="False"
+   cookie_persistence="False" default_skin="RockySchool"
+   request_varname="plone_skin">
+ <skin-path name="RockySchool">
+  <layer name="custom"/>
+  <layer name="PloneFormGen"/>
+  <layer name="Derma_RockySchool_custom_images"/>
+  <layer name="Derma_RockySchool_custom_templates"/>
+  <layer name="Derma_RockySchool_styles"/>
+  <layer name="tinymce"/>
+  <layer name="referencebrowser"/>
+  <layer name="keyword_manager"/>
+  <layer name="CSSManager_Templates"/>
+  <layer name="CSSManager_Images"/>
+  <layer name="CSSManager_Scripts"/>
+  <layer name="LanguageTool"/>
+  <layer name="cmfeditions_views"/>
+  <layer name="CMFEditions"/>
+  <layer name="archetypes"/>
+  <layer name="archetypes_kss"/>
+  <layer name="mimetypes_icons"/>
+  <layer name="plone_kss"/>
+  <layer name="ATContentTypes"/>
+  <layer name="PasswordReset"/>
+  <layer name="plone_ecmascript"/>
+  <layer name="plone_wysiwyg"/>
+  <layer name="plone_prefs"/>
+  <layer name="plone_templates"/>
+  <layer name="classic_styles"/>
+  <layer name="plone_form_scripts"/>
+  <layer name="plone_scripts"/>
+  <layer name="plone_forms"/>
+  <layer name="plone_images"/>
+  <layer name="plone_content"/>
+  <layer name="plone_login"/>
+  <layer name="plone_deprecated"/>
+  <layer name="plone_3rdParty"/>
+  <layer name="cmf_legacy"/>
+  <layer name="classic_ecmascript"/>
+  <layer name="plone_styles"/>
+ </skin-path>
+</object>
+

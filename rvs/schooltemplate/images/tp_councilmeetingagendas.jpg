@@ -1,0 +1,484 @@
+
+
+
+<!DOCTYPE html PUBLIC
+  "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+
+  
+    
+    
+    
+    
+
+
+  <head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <meta name="generator" content="Plone - http://plone.org" />
+
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    
+      <base href="http://manage38-dev.rockyview.ab.ca:8081/mclayton/" /><!--[if lt IE 7]></base><![endif]-->
+    
+
+    
+        
+<link rel="kss-base-url" href="http://manage38-dev.rockyview.ab.ca:8081/mclayton/" />
+
+  
+    <style type="text/css" media="screen">@import url(http://manage38-dev.rockyview.ab.ca:8081/mclayton/portal_css/RockySchool/base-cachekey4186.css);</style>
+    <link rel="stylesheet" type="text/css" media="screen" href="http://manage38-dev.rockyview.ab.ca:8081/mclayton/portal_css/RockySchool/resourcetinymce.stylesheetstinymce-cachekey2219.css" />
+    <style type="text/css">@import url(http://manage38-dev.rockyview.ab.ca:8081/mclayton/portal_css/RockySchool/print-cachekey6409.css);</style>
+    <style type="text/css" media="screen">@import url(http://manage38-dev.rockyview.ab.ca:8081/mclayton/portal_css/RockySchool/resourceDerma.RockySchool.stylesheetsmain-cachekey9772.css);</style>
+        <!--[if lt IE 8]>    
+    
+    <link rel="stylesheet" type="text/css" media="screen" href="http://manage38-dev.rockyview.ab.ca:8081/mclayton/portal_css/RockySchool/IEFixes-cachekey0261.css" />
+        <![endif]-->
+    
+    <style type="text/css" media="all">@import url(http://manage38-dev.rockyview.ab.ca:8081/mclayton/portal_css/RockySchool/ploneCustom-cachekey4226.css);</style>
+
+  
+    <link rel="kinetic-stylesheet" type="text/css" href="http://manage38-dev.rockyview.ab.ca:8081/mclayton/portal_kss/RockySchool/at-cachekey2219.kss" />
+  
+    <script type="text/javascript" src="http://manage38-dev.rockyview.ab.ca:8081/mclayton/portal_javascripts/RockySchool/jquery-cachekey9995.js"></script>
+    <script type="text/javascript" src="http://manage38-dev.rockyview.ab.ca:8081/mclayton/portal_javascripts/RockySchool/resourcekukit-cachekey6067.js"></script>
+       <!--[if lt IE 8]>
+     
+    <script type="text/javascript" src="http://manage38-dev.rockyview.ab.ca:8081/mclayton/portal_javascripts/RockySchool/iefixes-cachekey6909.js"></script>
+       <![endif]-->
+     
+    <script type="text/javascript" src="http://manage38-dev.rockyview.ab.ca:8081/mclayton/portal_javascripts/RockySchool/resourceDerma.RockySchool.scriptsderma.rockyschool-cachekey0643.js"></script>
+
+
+<title>Muriel Clayton Middle School</title>
+
+        
+
+    <link rel="shortcut icon" type="image/x-icon" href="http://manage38-dev.rockyview.ab.ca:8081/mclayton/favicon.ico" />
+    <link rel="apple-touch-icon" href="http://manage38-dev.rockyview.ab.ca:8081/mclayton/touch_icon.png" />
+
+
+
+    <link rel="home" href="http://manage38-dev.rockyview.ab.ca:8081/mclayton" title="Front page" />
+
+    <link rel="contents" href="http://manage38-dev.rockyview.ab.ca:8081/mclayton/sitemap" title="Site Map" />
+
+
+
+
+
+
+    <link rel="search" href="http://manage38-dev.rockyview.ab.ca:8081/mclayton/search_form" title="Search this site" />
+
+
+
+        <!-- Disable IE6 image toolbar -->
+        <meta http-equiv="imagetoolbar" content="no" />
+
+        
+        
+
+        
+        
+
+        
+        
+
+        
+        
+        <script type="text/javascript" src="http://manage38-dev.rockyview.ab.ca:8081/mclayton/login.js">
+        </script>
+    
+    
+
+  </head>
+
+  <body class="template-login_form portaltype-plone-site icons-on" dir="ltr">
+    <div id="wing-wrapper">
+    <div id="visual-portal-wrapper">
+
+      <div id="portal-top">
+        <div id="portal-header">
+    <p class="hiddenStructure">
+  <a accesskey="2" href="http://manage38-dev.rockyview.ab.ca:8081/mclayton/acl_users/credentials_cookie_auth/require_login?came_from=http%3A//manage38-dev.rockyview.ab.ca%3A8081/mclayton/assets/images/assets/images/teacher-page-viewlets/tp_councilmeetingagendas.jpg/image#content">Skip to content.</a> |
+
+  <a accesskey="6" href="http://manage38-dev.rockyview.ab.ca:8081/mclayton/acl_users/credentials_cookie_auth/require_login?came_from=http%3A//manage38-dev.rockyview.ab.ca%3A8081/mclayton/assets/images/assets/images/teacher-page-viewlets/tp_councilmeetingagendas.jpg/image#portal-globalnav">Skip to navigation</a>
+</p>
+
+
+
+<div id="portal-searchbox">
+    <form name="searchform" id="nolivesearchGadget_form" action="http://manage38-dev.rockyview.ab.ca:8081/mclayton/search">
+
+        <div class="LSBox">
+        <label class="hiddenStructure" for="nolivesearchGadget">Search Site</label>
+
+        <input name="SearchableText" type="text" size="18" title="Search Site" accesskey="4" class="searchField inputLabel" id="nolivesearchGadget" />
+
+        <input class="searchButton" type="submit" value="Search" />
+
+        <div class="searchSection">
+            <input id="searchbox_currentfolder_only" class="noborder" type="checkbox" name="path" value="/mclayton" />
+            <label for="searchbox_currentfolder_only" style="cursor: pointer">
+                only in current section
+            </label>
+        </div>
+
+        <div class="LSResult" id="LSResult" style=""><div class="LSShadow" id="LSShadow"></div></div>
+        </div>
+    </form>
+
+    <div id="portal-advanced-search" class="hiddenStructure">
+        <a href="http://manage38-dev.rockyview.ab.ca:8081/mclayton/search_form" accesskey="5">
+            Advanced Search&hellip;
+        </a>
+    </div>
+
+</div>
+
+<div id="iconbar">
+    <ul>
+	<li class="iconblock">
+            <a href="http://www.rockyview.ab.ca" title="Rocky View Corporate Site">
+                <img class="iconimage" alt="Rocky View Corporate Site" src="http://manage38-dev.rockyview.ab.ca:8081/mclayton/RVS-site.png">
+            </a>
+        </li>
+	
+	
+	<li class="iconblock">
+            <a title="Communities of Practice" href="http://cofp.rockyview.ab.ca">
+                <img class="iconimage" alt="Communities of Practice" src="http://manage38-dev.rockyview.ab.ca:8081/mclayton/cofp.png">
+            </a>
+        </li>
+	
+	<li class="iconblock">
+            <a title="Power School" href="https://ps.rockyview.ab.ca/public/home.html">
+                <img class="iconimage" alt="Power School" src="http://manage38-dev.rockyview.ab.ca:8081/mclayton/powerschool2.png">
+            </a>
+        </li>
+	<li class="iconblock">
+            <a title="School Cash Net" href="https://rockyview.schoolcashonline.com/">
+                <img class="iconimage" alt="School Cash Net" src="http://manage38-dev.rockyview.ab.ca:8081/mclayton/schoolcash.png">
+            </a>
+        </li>
+	<li class="iconblock">
+            <a title="Koha" href="http://rockyview.load2.kohalibrary.com/cgi-bin/koha/opac-user.pl">
+                <img class="iconimage" alt="Koha" src="http://manage38-dev.rockyview.ab.ca:8081/mclayton/koha.png">
+            </a>
+        </li>
+	
+	<li class="iconblock">
+            <a title="Groupwise" href="https://webmail2.rockyview.ab.ca/gw/webacc">
+                <img class="iconimage" alt="Groupwise" src="http://manage38-dev.rockyview.ab.ca:8081/mclayton/groupwise-badge.png">
+            </a>
+        </li>
+	<li class="iconblock">
+            <a title="RVS Gmail" href="http://gmail.rvschools.ab.ca/">
+                <img class="iconimage" alt="RVS Gmail" src="http://manage38-dev.rockyview.ab.ca:8081/mclayton/RVSschools.png">
+            </a>
+        </li>
+	<li class="iconblock">
+            <a title="Google" href="http://login.rvschools.ab.ca">
+                <img class="iconimage" alt="Google" src="http://manage38-dev.rockyview.ab.ca:8081/mclayton/google.png">
+            </a>
+        </li>
+	<li class="iconblock">
+            <a title="Moodle" href="http://moodle2.rockyview.ab.ca">
+                <img class="iconimage" alt="Moodle" src="http://manage38-dev.rockyview.ab.ca:8081/mclayton/Moodle.png">
+            </a>
+        </li>
+	
+	
+	
+	<li class="iconblock">
+            <a title="RVS Blogs" href="http://blogs.rockyview.ab.ca">
+                <img class="iconimage" alt="RVS Blogs" src="http://manage38-dev.rockyview.ab.ca:8081/mclayton/RVSblogs.png">
+            </a>
+        </li>
+	<li class="iconblock">
+            <a title="Student Blogs" href="http://creativeblogs.rockyview.ab.ca ">
+                <img class="iconimage" alt="Student Blogs" src="http://manage38-dev.rockyview.ab.ca:8081/mclayton/student-blog.png">
+            </a>
+        </li>
+	
+	<li class="iconblock">
+            <a title="YouTube" href="http://www.youtube.com/user/RVSchools?feature=CAoQwRs%3D">
+                <img class="iconimage" alt="YouTube" src="http://manage38-dev.rockyview.ab.ca:8081/mclayton/you-tube.png">
+            </a>
+        </li>
+	
+	
+	
+	
+	
+	<li class="iconblock">
+            <a title="Donations" href="http://www.canadahelps.org/CharityProfilePage.aspx?CharityID=d8756">
+                <img class="iconimage" alt="Donations" src="http://manage38-dev.rockyview.ab.ca:8081/mclayton/donations.png">
+            </a>
+        </li>
+	
+    </ul>
+</div>
+
+</div>
+
+<a id="portal-logo" accesskey="1" href="http://manage38-dev.rockyview.ab.ca:8081/mclayton">
+    <img src="http://manage38-dev.rockyview.ab.ca:8081/mclayton/logo.jpg" name="banner" title="" height="200" width="1000" alt="" /></a>
+
+    <h5 class="hiddenStructure">Sections</h5>
+
+    <ul id="portal-globalnav"><li id="portaltab-index_html" class="selected"><a href="http://manage38-dev.rockyview.ab.ca:8081/mclayton" title="">Home</a></li><li id="portaltab-our-school" class="plain"><a href="http://manage38-dev.rockyview.ab.ca:8081/mclayton/our-school" title="">Our School</a></li><li id="portaltab-administration" class="plain"><a href="http://manage38-dev.rockyview.ab.ca:8081/mclayton/administration" title="">Administration</a></li><li id="portaltab-students" class="plain"><a href="http://manage38-dev.rockyview.ab.ca:8081/mclayton/students" title="">Students</a></li><li id="portaltab-parents" class="plain"><a href="http://manage38-dev.rockyview.ab.ca:8081/mclayton/parents" title="">Parents</a></li><li id="portaltab-staff" class="plain"><a href="http://manage38-dev.rockyview.ab.ca:8081/mclayton/staff" title="">Staff</a></li><li id="portaltab-school-council" class="plain"><a href="http://manage38-dev.rockyview.ab.ca:8081/mclayton/school-council" title="">School Council</a></li><li
+    id="portaltab-publications" class="plain"><a href="http://manage38-dev.rockyview.ab.ca:8081/mclayton/publications" title="">Publications</a></li><li id="portaltab-calendar" class="plain"><a href="http://manage38-dev.rockyview.ab.ca:8081/mclayton/calendar" title="">Calendar</a></li><li id="portaltab-contact-us" class="plain"><a href="http://manage38-dev.rockyview.ab.ca:8081/mclayton/contact-us" title="">Contact Us</a></li></ul>
+
+    
+
+<div id="header-topimage">
+</div>
+
+<div id="portal-toolbar">
+    <div id="portal-toolbar">
+    <div id="portal-personaltools-wrapper">
+
+<h5 class="hiddenStructure">Personal tools</h5>
+
+<ul id="portal-personaltools" class="visualInline">
+    
+
+    
+        <li id="personaltools-login">
+            <a href="http://manage38-dev.rockyview.ab.ca:8081/mclayton/login">Log in</a>
+        </li>
+    
+
+</ul>
+</div>
+
+    <div id="portal-breadcrumbs">
+
+    <span id="breadcrumbs-you-are-here">You
+are here:</span>
+    <span id="breadcrumbs-home">
+        <a href="http://manage38-dev.rockyview.ab.ca:8081/mclayton">Home</a>
+        
+    </span>
+
+</div>
+
+</div>
+
+</div>
+
+      </div>
+
+      <div class="visualClear" id="clear-space-before-wrapper-table"><!-- --></div>
+
+      <table id="portal-columns">
+        <tbody>
+          <tr>
+            
+                
+                
+                
+            
+
+            
+            <td id="portal-column-content">
+
+              <div id="viewlet-above-content"></div>
+
+              
+                <div class="">
+
+                    
+
+                    <span id="contentTopLeft"></span>
+                    <span id="contentTopRight"></span>
+
+                    
+
+    <dl class="portalMessage info" id="kssPortalMessage" style="display:none">
+        <dt>Info</dt>
+        <dd></dd>
+    </dl>
+
+
+
+                    
+                    <div id="content">
+                      
+                      
+
+    <div id="content-core">
+        
+
+            <dl class="portalMessage error" id="enable_cookies_message" style="display:none">
+                <dt>
+                    Error
+                </dt>
+                <dd>
+                    Cookies are not enabled. You must enable cookies before you can log in.
+                </dd>
+            </dl>
+
+            
+
+            <form class="enableAutoFocus" method="post" id="login_form" action="http://manage38-dev.rockyview.ab.ca:8081/mclayton/login_form">
+
+                <div id="login-form">
+
+                    <input type="hidden" name="came_from" value="http://manage38-dev.rockyview.ab.ca:8081/mclayton/assets/images/assets/images/teacher-page-viewlets/tp_councilmeetingagendas.jpg/image" />
+
+                    <input type="hidden" name="next" />
+
+                    <input type="hidden" name="ajax_load" />
+
+                    <input type="hidden" name="ajax_include_head" />
+
+                    <input type="hidden" name="target" />
+
+                    <input type="hidden" name="mail_password_url" />
+
+                    <input type="hidden" name="join_url" />
+
+                    <input type="hidden" name="form.submitted" value="1" />
+                    <input type="hidden" name="js_enabled" id="js_enabled" value="0" />
+                    <input type="hidden" name="cookies_enabled" id="cookies_enabled" value="" />
+                    <input type="hidden" name="login_name" id="login_name" value="" />
+                    <input type="hidden" name="pwd_empty" id="pwd_empty" value="0" />
+
+                    <div class="field">
+
+                        <label for="__ac_name">Login Name</label>
+
+                        
+
+                        
+
+                        <input type="text" size="15" name="__ac_name" value="" id="__ac_name" />
+
+                </div>
+
+                <div class="field">
+
+                        <label for="__ac_password">Password</label>
+
+                        
+
+                        <input type="password" size="15" name="__ac_password" id="__ac_password" />
+                </div>
+
+                    
+
+                    <div class="formControls">
+
+                        <input class="context" type="submit" name="submit" value="Log in" />
+
+                    </div>
+
+                </div>
+
+            </form>
+
+            
+
+        
+
+            <div id="login-forgotten-password">
+                <strong>
+                    Forgot your password?
+                </strong>
+                <p class="discreet">
+                    If you have forgotten your password,
+                    <span> <a href="http://manage38-dev.rockyview.ab.ca:8081/mclayton/mail_password_form?userid=">we can send you a new one</a></span>.
+                </p>
+            </div>
+
+            
+
+        
+    </div>
+
+    
+                    </div>
+                    
+
+                    
+
+                    <span id="contentBottomLeft"></span>
+                    <span id="contentBottomRight"></span>
+
+                </div>
+              
+
+              <div id="viewlet-below-content">
+</div>
+
+            </td>
+            
+
+            
+                
+                
+                
+            
+          </tr>
+        </tbody>
+      </table>
+      
+
+      <div class="visualClear" id="clear-space-before-footer"><!-- --></div>
+
+      
+
+        <div id="portal-footer">
+
+<p>
+    
+    
+    Copyright <acronym title="Copyright">&copy;</acronym>
+    2013
+    
+    Rocky View Schools, Airdrie, Alberta. All rights reserved.
+</p>
+<p>
+   <strong>RVS Education Centre Address:</strong> 2651 Chinook Winds Drive SW, Airdrie, AB, Canada T4B 0B4<br>
+   <strong>RVS Education Centre Telephone Number:</strong> (403)945-4000<br>
+</p>
+
+</div>
+<div id="portal-colophon">
+
+<div class="colophonWrapper">
+<ul>
+  <li>
+    <a href="http://plone.org" title="This site was built using the Plone Open Source CMS/WCM.">
+      Powered by Plone &amp; Python</a>
+  </li>
+</ul>
+</div>
+</div>
+
+<ul id="portal-siteactions">
+
+    <li id="siteaction-sitemap"><a href="http://manage38-dev.rockyview.ab.ca:8081/mclayton/sitemap" accesskey="3" title="Site Map">Site Map</a></li>
+    <li id="siteaction-accessibility"><a href="http://manage38-dev.rockyview.ab.ca:8081/mclayton/accessibility-info" accesskey="0" title="Accessibility">Accessibility</a></li>
+    <li id="siteaction-contact"><a href="http://manage38-dev.rockyview.ab.ca:8081/mclayton/contact-info" accesskey="9" title="Contact">Contact</a></li>
+</ul>
+
+<script type="text/javascript">  var _gaq = _gaq || [];  _gaq.push(['_setAccount', 'UA-27779336-22']);  _gaq.push(['_trackPageview']);  (function() {    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);  })();</script>
+
+      
+
+      <div class="visualClear"><!-- --></div>
+    </div>
+    </div>
+<div id="kss-spinner"><img alt="" src="http://manage38-dev.rockyview.ab.ca:8081/mclayton/spinner.gif" /></div>
+</body>
+</html>
+

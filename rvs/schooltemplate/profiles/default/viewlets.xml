@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<object>
+ <order manager="plone.portalfooter" skinname="Sunburst Theme"/>
+ <order manager="plone.portalheader" skinname="Sunburst Theme"/>
+ <order manager="plone.portaltop" skinname="Sunburst Theme"/>
+ <order manager="plone.portalheader" skinname="Old Plone 3 Custom Theme">
+  <viewlet name="plone.site_actions"/>
+ </order>
+ <order manager="plone.portaltop" skinname="Old Plone 3 Custom Theme">
+  <viewlet name="plone.personal_bar"/>
+  <viewlet name="plone.app.i18n.locales.languageselector"/>
+  <viewlet name="plone.path_bar"/>
+ </order>
+ <order manager="plone.belowcontentbody" skinname="RockySchool"/>
+ <order manager="plone.portaltop" skinname="RockySchool">
+  <viewlet name="plone.header"/>
+  <viewlet name="plone.logo"/>
+  <viewlet name="plone.global_sections"/>
+  <viewlet name="rockyskin.member_menu"/>
+  <viewlet name="rockyskin.topimage"/>
+  <viewlet name="plone.personal_bar"/>
+  <viewlet name="plone.app.i18n.locales.languageselector"/>
+  <viewlet name="plone.path_bar"/>
+  <viewlet name="rockyskin.iconbar"/>
+ </order>
+ <order manager="plone.abovecontent" skinname="Plone Default">
+  <viewlet name="plone.path_bar"/>
+ </order>
+ <order manager="plone.portalheader" skinname="Plone Default">
+  <viewlet name="plone.skip_links"/>
+  <viewlet name="plone.personal_bar"/>
+  <viewlet name="plone.app.i18n.locales.languageselector"/>
+  <viewlet name="plone.searchbox"/>
+  <viewlet name="plone.logo"/>
+  <viewlet name="plone.global_sections"/>
+ </order>
+ <order manager="plone.belowcontent" skinname="Plone Default">
+  <viewlet name="plone.belowcontenttitle.keywords"/>
+ </order>
+ <order manager="plone.portalfooter" skinname="Plone Default">
+  <viewlet name="plone.footer"/>
+  <viewlet name="plone.colophon"/>
+  <viewlet name="plone.site_actions"/>
+ </order>
+ <order manager="plone.belowcontentbody" skinname="Plone Default"/>
+ <order manager="plone.portaltop" skinname="Plone Default">
+  <viewlet name="plone.header"/>
+ </order>
+ <order manager="plone.contentviews" skinname="Plone Default">
+  <viewlet name="plone.contentviews"/>
+  <viewlet name="plone.contentactions"/>
+ </order>
+ <order manager="plone.belowcontentbody" skinname="Plone Classic Theme"/>
+ <order manager="plone.portalheader" skinname="Plone Classic Theme">
+  <viewlet name="plone.skip_links"/>
+  <viewlet name="plone.site_actions"/>
+  <viewlet name="plone.personal_bar"/>
+  <viewlet name="plone.app.i18n.locales.languageselector"/>
+  <viewlet name="plone.searchbox"/>
+  <viewlet name="plone.logo"/>
+  <viewlet name="plone.global_sections"/>
+ </order>
+ <order manager="plone.portaltop" skinname="Plone Classic Theme">
+  <viewlet name="plone.header"/>
+  <viewlet name="plone.personal_bar"/>
+  <viewlet name="plone.app.i18n.locales.languageselector"/>
+  <viewlet name="plone.path_bar"/>
+ </order>
+ <order manager="plone.belowcontentbody" skinname="RockySkin"/>
+ <order manager="plone.portalfooter" skinname="RockySkin">
+  <viewlet name="plone.site_actions"/>
+  <viewlet name="plone.footer"/>
+  <viewlet name="plone.colophon"/>
+ </order>
+ <hidden manager="plone.belowcontent" skinname="Old Plone 3 Custom Theme">
+  <viewlet name="plone.belowcontenttitle.keywords"/>
+ </hidden>
+ <hidden manager="plone.portalfooter" skinname="Old Plone 3 Custom Theme">
+  <viewlet name="plone.site_actions"/>
+ </hidden>
+ <hidden manager="plone.portalheader" skinname="Old Plone 3 Custom Theme">
+  <viewlet name="plone.personal_bar"/>
+  <viewlet name="plone.app.i18n.locales.languageselector"/>
+ </hidden>
+ <hidden manager="plone.abovecontent" skinname="Old Plone 3 Custom Theme">
+  <viewlet name="plone.path_bar"/>
+ </hidden>
+ <hidden manager="plone.belowcontent" skinname="Plone Classic Theme">
+  <viewlet name="plone.belowcontenttitle.keywords"/>
+ </hidden>
+ <hidden manager="plone.portalfooter" skinname="Plone Classic Theme">
+  <viewlet name="plone.site_actions"/>
+ </hidden>
+ <hidden manager="plone.portalheader" skinname="Plone Classic Theme">
+  <viewlet name="plone.personal_bar"/>
+  <viewlet name="plone.app.i18n.locales.languageselector"/>
+ </hidden>
+ <hidden manager="plone.abovecontent" skinname="Plone Classic Theme">
+  <viewlet name="plone.path_bar"/>
+ </hidden>
+ <hidden manager="plone.belowcontentbody" skinname="Sunburst Theme"/>
+ <hidden manager="plone.portalheader" skinname="Sunburst Theme"/>
+ <hidden manager="plone.portaltop" skinname="Sunburst Theme"/>
+ <hidden manager="plone.portaltop" skinname="RockySchool">
+  <viewlet name="plone.path_bar"/>
+  <viewlet name="plone.personal_bar"/>
+ </hidden>
+ <hidden manager="plone.header" skinname="RockySchool">
+  <viewlet name="plone.personal_bar"/>
+  <viewlet name="plone.path_bar"/>
+ </hidden>
+ <hidden manager="plone.abovecontent" skinname="RockySchool">
+  <viewlet name="plone.path_bar"/>
+ </hidden>
+ <hidden manager="plone.portalheader" skinname="RockySchool">
+  <viewlet name="plone.logo"/>
+  <viewlet name="plone.global_sections"/>
+  <viewlet name="plone.site_actions"/>
+  <viewlet name="plone.personal_bar"/>
+ </hidden>
+</object>

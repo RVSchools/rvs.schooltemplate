@@ -1,0 +1,23 @@
+id: teacher-pages
+title: Teacher Pages
+description: This area was created to provide information on your school's staff for parents/students... if you would like to upload information for staff here as well in Member's state that is okay, however a Staff Room type folder off of Home will appear in the member's bar and is nice and easy to manage as well.
+subject: 
+relatedItems: 
+location: 
+language: 
+effectiveDate: None
+expirationDate: None
+creation_date: 2009/07/15 04:30:23.063000 GMT-6
+modification_date: 2012/05/17 14:44:55.831616 GMT-6
+creators: admin
+contributors: 
+rights: 
+allowDiscussion: False
+excludeFromNav: False
+presentation: False
+tableContents: False
+Content-Type: text/html
+
+<ul>
+<li>The main page should be a listing of your staff with links to their member's folders, and links to their email address.</li>
+</ul>

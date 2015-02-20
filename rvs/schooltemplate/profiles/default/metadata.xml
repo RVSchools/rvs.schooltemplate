@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<metadata>
+  <version>1.0</version>
+  <dependencies>
+    <dependency>profile-Derma.RockySchool:default</dependency>
+    <dependency>profile-Products.PloneFormGen:default</dependency>
+    <dependency>profile-Products.PloneKeywordManager:default</dependency>
+    <dependency>profile-plone.app.caching:default</dependency>
+    <dependency>profile-collective.js.jqueryui:default</dependency>
+    <dependency>profile-dateable.chronos:default</dependency>
+    <dependency>profile-Products.CMFPlacefulWorkflow:CMFPlacefulWorkflow</dependency>
+  </dependencies>
+</metadata>

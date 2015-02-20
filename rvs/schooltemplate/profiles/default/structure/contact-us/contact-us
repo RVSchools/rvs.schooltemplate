@@ -1,0 +1,24 @@
+id: contact-us
+title: Contact Us
+description: 
+subject: 
+relatedItems: 
+location: 
+language: 
+effectiveDate: None
+expirationDate: None
+creation_date: 2009/07/15 08:06:2.022000 GMT-6
+modification_date: 2012/05/17 14:32:30.565655 GMT-6
+creators: admin
+contributors: 
+rights: 
+allowDiscussion: False
+excludeFromNav: False
+presentation: False
+tableContents: False
+Content-Type: text/html
+
+<ul>
+<li>The main page should include address, phone number, administrators names, absence phone number etc.</li>
+<li>A Google map can be embedded for your school, which is interactive for parents</li>
+</ul>

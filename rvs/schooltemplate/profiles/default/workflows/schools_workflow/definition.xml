@@ -1,0 +1,239 @@
+<?xml version="1.0"?>
+<dc-workflow workflow_id="schools_workflow" title="Private/Internal/Member/Public Schools Workflow" description="" state_variable="review_state" initial_state="private" manager_bypass="False">
+ <permission>Access contents information</permission>
+ <permission>Modify portal content</permission>
+ <permission>View</permission>
+ <permission>List folder contents</permission>
+ <state state_id="internal" title="Internal (assign users by clicking on the sharing tab)">
+  <description>State between Private and Members.
+If you make an item internal to a specific person or group, you need to add them. (click on the sharing tab and search for them)</description>
+  <exit-transition transition_id="members"/>
+  <exit-transition transition_id="private"/>
+  <exit-transition transition_id="public"/>
+  <permission-map name="Access contents information" acquired="False">
+   <permission-role>Editor</permission-role>
+   <permission-role>Manager</permission-role>
+   <permission-role>Owner</permission-role>
+   <permission-role>Reader</permission-role>
+   <permission-role>Reviewer</permission-role>
+   <permission-role>Site Administrator</permission-role>
+  </permission-map>
+  <permission-map name="List folder contents" acquired="False">
+   <permission-role>Editor</permission-role>
+   <permission-role>Manager</permission-role>
+   <permission-role>Owner</permission-role>
+   <permission-role>Reader</permission-role>
+   <permission-role>Reviewer</permission-role>
+   <permission-role>Site Administrator</permission-role>
+  </permission-map>
+  <permission-map name="Modify portal content" acquired="False">
+   <permission-role>Editor</permission-role>
+   <permission-role>Manager</permission-role>
+   <permission-role>Owner</permission-role>
+   <permission-role>Reviewer</permission-role>
+   <permission-role>Site Administrator</permission-role>
+  </permission-map>
+  <permission-map name="View" acquired="False">
+   <permission-role>Editor</permission-role>
+   <permission-role>Manager</permission-role>
+   <permission-role>Owner</permission-role>
+   <permission-role>Reader</permission-role>
+   <permission-role>Reviewer</permission-role>
+   <permission-role>Site Administrator</permission-role>
+  </permission-map>
+ </state>
+ <state state_id="members" title="Members (all users that can log into the site)">
+  <description>The Membership is anyone that has an account on the site. In most schools this includes staff, students, and a generic parent account.</description>
+  <exit-transition transition_id="internal"/>
+  <exit-transition transition_id="private"/>
+  <exit-transition transition_id="public"/>
+  <permission-map name="Access contents information" acquired="False">
+   <permission-role>Editor</permission-role>
+   <permission-role>Manager</permission-role>
+   <permission-role>Member</permission-role>
+   <permission-role>Owner</permission-role>
+   <permission-role>Reader</permission-role>
+   <permission-role>Reviewer</permission-role>
+   <permission-role>Site Administrator</permission-role>
+  </permission-map>
+  <permission-map name="List folder contents" acquired="False">
+   <permission-role>Editor</permission-role>
+   <permission-role>Manager</permission-role>
+   <permission-role>Member</permission-role>
+   <permission-role>Owner</permission-role>
+   <permission-role>Reader</permission-role>
+   <permission-role>Reviewer</permission-role>
+   <permission-role>Site Administrator</permission-role>
+  </permission-map>
+  <permission-map name="Modify portal content" acquired="False">
+   <permission-role>Editor</permission-role>
+   <permission-role>Manager</permission-role>
+   <permission-role>Owner</permission-role>
+   <permission-role>Reviewer</permission-role>
+   <permission-role>Site Administrator</permission-role>
+  </permission-map>
+  <permission-map name="View" acquired="False">
+   <permission-role>Editor</permission-role>
+   <permission-role>Manager</permission-role>
+   <permission-role>Member</permission-role>
+   <permission-role>Owner</permission-role>
+   <permission-role>Reader</permission-role>
+   <permission-role>Reviewer</permission-role>
+   <permission-role>Site Administrator</permission-role>
+  </permission-map>
+ </state>
+ <state state_id="private" title="Private">
+  <exit-transition transition_id="all_users"/>
+  <exit-transition transition_id="internal"/>
+  <exit-transition transition_id="members"/>
+  <exit-transition transition_id="public"/>
+  <permission-map name="Access contents information" acquired="False">
+   <permission-role>Manager</permission-role>
+   <permission-role>Owner</permission-role>
+   <permission-role>Site Administrator</permission-role>
+  </permission-map>
+  <permission-map name="List folder contents" acquired="False">
+   <permission-role>Manager</permission-role>
+   <permission-role>Owner</permission-role>
+   <permission-role>Site Administrator</permission-role>
+  </permission-map>
+  <permission-map name="Modify portal content" acquired="False">
+   <permission-role>Manager</permission-role>
+   <permission-role>Owner</permission-role>
+   <permission-role>Site Administrator</permission-role>
+  </permission-map>
+  <permission-map name="View" acquired="False">
+   <permission-role>Manager</permission-role>
+   <permission-role>Owner</permission-role>
+   <permission-role>Site Administrator</permission-role>
+  </permission-map>
+ </state>
+ <state state_id="public" title="Public (anybody can view)">
+  <description>Public is open to the internet. Any item in a public state will be indexed by web crawlers and stored in search engines like Google.</description>
+  <exit-transition transition_id="internal"/>
+  <exit-transition transition_id="members"/>
+  <exit-transition transition_id="private"/>
+  <permission-map name="Access contents information" acquired="False">
+   <permission-role>Anonymous</permission-role>
+   <permission-role>Editor</permission-role>
+   <permission-role>Manager</permission-role>
+   <permission-role>Member</permission-role>
+   <permission-role>Owner</permission-role>
+   <permission-role>Reader</permission-role>
+   <permission-role>Reviewer</permission-role>
+   <permission-role>Site Administrator</permission-role>
+  </permission-map>
+  <permission-map name="List folder contents" acquired="False">
+   <permission-role>Editor</permission-role>
+   <permission-role>Manager</permission-role>
+   <permission-role>Owner</permission-role>
+   <permission-role>Reader</permission-role>
+   <permission-role>Reviewer</permission-role>
+   <permission-role>Site Administrator</permission-role>
+  </permission-map>
+  <permission-map name="Modify portal content" acquired="False">
+   <permission-role>Editor</permission-role>
+   <permission-role>Manager</permission-role>
+   <permission-role>Owner</permission-role>
+   <permission-role>Reviewer</permission-role>
+   <permission-role>Site Administrator</permission-role>
+  </permission-map>
+  <permission-map name="View" acquired="False">
+   <permission-role>Anonymous</permission-role>
+   <permission-role>Editor</permission-role>
+   <permission-role>Manager</permission-role>
+   <permission-role>Member</permission-role>
+   <permission-role>Owner</permission-role>
+   <permission-role>Reader</permission-role>
+   <permission-role>Reviewer</permission-role>
+   <permission-role>Site Administrator</permission-role>
+  </permission-map>
+ </state>
+ <transition transition_id="internal" title="Manager/Owner/Internal makes folder internal" new_state="internal" trigger="USER" before_script="" after_script="">
+  <description>The State "Internal" allows you as the owner to control the "Membership"  of a community that can add, edit and/or view your content items.
+If you want to make an item internal to a specific person or group, you need to add them. (click on the sharing tab, search for them and then assign the level of access they need) </description>
+  <action url="" category="workflow" icon="">Internal</action>
+  <guard>
+   <guard-role>Internal</guard-role>
+   <guard-role>Reviewer</guard-role>
+   <guard-role>Owner</guard-role>
+   <guard-role>Manager</guard-role>
+  </guard>
+ </transition>
+ <transition transition_id="members" title="Manager/Owner/Internal makes member folder" new_state="members" trigger="USER" before_script="" after_script="">
+  <description>The Membership is anyone that has an account on the site. In most schools this includes staff, students, and a generic parent account. The Membership group is created automatically and is associated to the State "Members"</description>
+  <action url="" category="workflow" icon="">Members</action>
+  <guard>
+   <guard-role>Internal</guard-role>
+   <guard-role>Reviewer</guard-role>
+   <guard-role>Owner</guard-role>
+   <guard-role>Manager</guard-role>
+  </guard>
+ </transition>
+ <transition transition_id="private" title="Manager/Owner/Internal makes folder private" new_state="private" trigger="USER" before_script="" after_script="">
+  <action url="" category="workflow" icon="">Private</action>
+  <guard>
+   <guard-role>Internal</guard-role>
+   <guard-role>Reviewer</guard-role>
+   <guard-role>Owner</guard-role>
+   <guard-role>Manager</guard-role>
+  </guard>
+ </transition>
+ <transition transition_id="public" title="Manager/Owner/Internal makes public folder" new_state="public" trigger="USER" before_script="" after_script="">
+  <description>Public is open to the internet. Any item in a public state will be indexed by web crawlers and stored in search engines like Google.</description>
+  <action url="" category="workflow" icon="">Public</action>
+  <guard>
+   <guard-role>Internal</guard-role>
+   <guard-role>Reviewer</guard-role>
+   <guard-role>Owner</guard-role>
+   <guard-role>Manager</guard-role>
+  </guard>
+ </transition>
+ <variable variable_id="action" for_catalog="False" for_status="True" update_always="True">
+  <description>The last transition</description>
+  <default>
+   
+   <expression>transition/getId|nothing</expression>
+  </default>
+  <guard>
+  </guard>
+ </variable>
+ <variable variable_id="actor" for_catalog="False" for_status="True" update_always="True">
+  <description>The ID of the user who performed the last transition</description>
+  <default>
+   
+   <expression>user/getId</expression>
+  </default>
+  <guard>
+  </guard>
+ </variable>
+ <variable variable_id="comments" for_catalog="False" for_status="True" update_always="True">
+  <description>Comments about the last transition</description>
+  <default>
+   
+   <expression>python:state_change.kwargs.get('comment', '')</expression>
+  </default>
+  <guard>
+  </guard>
+ </variable>
+ <variable variable_id="review_history" for_catalog="False" for_status="False" update_always="False">
+  <description>Provides access to workflow history</description>
+  <default>
+   
+   <expression>state_change/getHistory</expression>
+  </default>
+  <guard>
+   <guard-permission>Request review</guard-permission>
+   <guard-permission>Review portal content</guard-permission>
+  </guard>
+ </variable>
+ <variable variable_id="time" for_catalog="False" for_status="True" update_always="True">
+  <description>Time of the last transition</description>
+  <default>
+   
+   <expression>state_change/getDateTime</expression>
+  </default>
+  <guard>
+  </guard>
+ </variable>
+</dc-workflow>

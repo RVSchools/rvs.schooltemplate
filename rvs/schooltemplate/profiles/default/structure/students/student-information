@@ -1,0 +1,21 @@
+id: student-information
+title: Student Information
+description: Please view the information to the left for additional Student Information
+subject: 
+relatedItems: 
+location: 
+language: 
+effectiveDate: None
+expirationDate: None
+creation_date: 2011/03/30 14:57:58.344000 GMT-6
+modification_date: 2012/05/17 14:43:49.003787 GMT-6
+creators: admin
+contributors: 
+rights: 
+allowDiscussion: False
+excludeFromNav: False
+presentation: False
+tableContents: False
+Content-Type: text/html
+
+<p><span>A table with viewlets can be added here linking to important parent information</span></p>

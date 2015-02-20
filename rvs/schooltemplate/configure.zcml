@@ -1,0 +1,26 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="rvs.schooltemplate"
+    >
+
+  <genericsetup:registerProfile
+    name="default"
+    title="rvs.schooltemplate"
+    description="Installs the rvs.schooltemplate package"
+    directory="profiles/default"
+    provides="Products.GenericSetup.interfaces.EXTENSION"
+    for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+  />
+
+  <genericsetup:importStep
+    name="rvs-template"
+    handler=".setuphandlers.template_setup"
+    title="RVS school site template setup"
+    description="Finalize template setup">
+    <depends name="content" />
+  </genericsetup:importStep>
+
+</configure>

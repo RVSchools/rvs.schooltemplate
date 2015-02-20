@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<object name="base_properties" meta_type="Folder">
+ <property
+    name="title">RockySchool's color, font, logo and border defaults</property>
+ <property name="plone_skin" type="string">RockySchool</property>
+ <property name="logoName" type="string">logo.jpg</property>
+ <property name="fontFamily"
+    type="string">"Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif</property>
+ <property name="fontBaseSize" type="string">69%</property>
+ <property name="fontColor" type="string">Black</property>
+ <property name="fontSmallSize" type="string">90%</property>
+ <property name="backgroundColor" type="string">#FFFFFF</property>
+ <property name="linkColor" type="string">#284181</property>
+ <property name="linkActiveColor" type="string">Red</property>
+ <property name="linkVisitedColor" type="string">Purple</property>
+ <property name="borderWidth" type="string">1px</property>
+ <property name="borderStyle" type="string">solid</property>
+ <property name="borderStyleAnnotations" type="string">solid</property>
+ <property name="globalBorderColor" type="string">#EA9C01</property>
+ <property name="globalBackgroundColor" type="string">#EA9C01</property>
+ <property name="globalFontColor" type="string">#284181</property>
+ <property name="headingFontFamily"
+    type="string">"Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif</property>
+ <property name="contentViewBorderColor" type="string">#74ae0b</property>
+ <property name="contentViewBackgroundColor" type="string">#E7F1FF</property>
+ <property name="contentViewFontColor" type="string">#284181</property>
+ <property name="inputFontColor" type="string">#433F3F</property>
+ <property name="textTransform" type="string">none</property>
+ <property name="evenRowBackgroundColor" type="string">#E4EFFF</property>
+ <property name="oddRowBackgroundColor" type="string">lt green</property>
+ <property name="notifyBorderColor" type="string">#EA9C01</property>
+ <property name="notifyBackgroundColor" type="string">#ffce7b</property>
+ <property name="discreetColor" type="string">#76797c</property>
+ <property name="helpBackgroundColor" type="string">#ffffe1</property>
+ <property name="portalMinWidth" type="string">70em</property>
+ <property name="columnOneWidth" type="string">16em</property>
+ <property name="columnTwoWidth" type="string">16em</property>
+ <property name="imageHeader" type="string">bg_header_black.png</property>
+ <property name="imageFooter" type="string">bg_footer_black.png</property>
+ <property name="siteActionsFontColor" type="string">#E4EFFF</property>
+ <property name="searchBackgroundColor" type="string">white</property>
+ <property name="secondBackgroundColor" type="string">#C5D7F0</property>
+ <property name="secondLinkColor" type="string">#284FB4</property>
+ <property name="secondLinkColorHover" type="string">black</property>
+ <property name="memberMenuBackgroundColor" type="string">#C5D7F0</property>
+ <property name="memberLinkColor" type="string">#284FB4</property>
+ <property name="memberLinkColorHover" type="string">black</property>
+</object>
+
